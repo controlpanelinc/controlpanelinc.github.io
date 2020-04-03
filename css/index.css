@@ -242,6 +242,13 @@ body {
   font-size: 22px;
 }
 
+@media only screen and (min-width: 1440px) {
+  .kit-idx .section-top {
+    height: 650px;
+    background-position: 0px -150px;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .kit-idx .header {
     padding: 30px 25px 18px 20px;

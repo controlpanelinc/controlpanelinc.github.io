@@ -18,10 +18,12 @@ KITIDX.enableSubmit = function() {
 
 KITIDX.checkSubmit = function() {
     var formfullname = $('#form-fullname').val();
+    var formemail = $('#form-email').val();
     var formcompany = $('#form-company').val();
     var formtext = $('#form-reason').val();
 
     if ((formfullname.length <= 0) ||
+        (formemail.length <= 0) ||
         (formcompany.length <= 0) ||
         (formtext.length <= 10) || (formtext.indexOf(' ') < 0)) {
         KITIDX.disableSubmit();

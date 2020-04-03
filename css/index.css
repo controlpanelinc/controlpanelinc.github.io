@@ -1,0 +1,439 @@
+@font-face {
+  font-family: Avenir;
+  src: url(https://aws-kit-bucket-19393939393.s3.amazonaws.com/website_v1.0/fonts/Avenir.ttc);
+}
+@font-face {
+  font-family: AvenirBold;
+  src: url(https://aws-kit-bucket-19393939393.s3.amazonaws.com/website_v1.0/fonts/Avenir-Bold.ttf);
+}
+
+@font-face {
+  font-family: AvenirLight;
+  src: url(https://aws-kit-bucket-19393939393.s3.amazonaws.com/website_v1.0/fonts/Avenir-Light.ttf);
+}
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Avenir;
+  overflow-x: hidden;
+}
+.kit-idx {
+  display: flex;
+  flex-direction: column;
+}
+
+.kit-idx .header {
+  padding: 30px 60px 30px 40px;
+}
+
+.kit-idx .header .logo {
+  float: left;
+}
+
+.kit-idx .header .logo img {
+  width: 100px;
+}
+
+.kit-idx .header .links {
+  float: right;
+  font-size: 20px;
+  color: black;
+  margin: -2px 0px 0px 0px;
+  font-family: AvenirLight;
+}
+
+.kit-idx .header .links .link {
+  float: left;
+  padding: 10px 29px;
+  color: black;
+  /* background-color: black; */
+  border-radius: 10px;
+  border: 1px solid;
+  font-weight: 100;
+}
+
+.kit-idx .section-top {
+  background-image: url(https://aws-kit-bucket-19393939393.s3.amazonaws.com/website_v1.0/images/arrow_and_box.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  background-position: right;
+}
+
+.kit-idx .section-top .text-container {
+  margin: 100px 100px 0px 0px;
+  float: right;
+  width: 400px;
+}
+
+.kit-idx .section-top .text-container .title {
+  font-size: 46px;
+  font-family: AvenirBold;
+  width: 200px;
+}
+
+.kit-idx .section-top .divider {
+  width: 60px;
+  margin: 20px 0px 34px 0px;
+}
+
+.kit-idx .section-top .divider hr {
+  border: 3px solid black;
+}
+.kit-idx .section-top .text-container .subtitle {
+  font-size: 28px;
+}
+
+.kit-idx .section-top .text-container .button {
+  font-size: 26px;
+  color: white;
+  background-color: black;
+  width: fit-content;
+  padding: 19px 31px;
+  border-radius: 10px;
+  border-color: black;
+  margin: 30px 0px 0px 0px;
+}
+
+.kit-idx .section-tree {
+  position: relative;
+  background-color: #ffffff;
+  margin: 100px 0px 100px 0px;
+}
+
+.kit-idx .section-tree .text-container {
+  /* todo: fix for ipad */
+  float: left;
+  background-color: rgb(0,0,0,.8);
+  color: white;
+  width: 40%;
+  padding: 30px 20px 30px 25px;
+  position: absolute;
+  top: 22%;
+  left: 50px;
+}
+
+.kit-idx .section-tree .text-container .title {
+  font-size: 40px;
+  font-weight: 500;
+  margin: 10px 10px 0px 10px;
+}
+
+.kit-idx .section-tree .text-container .subtitle {
+  font-size: 27px;
+  margin: 10px 10px 10px 10px;
+}
+
+.kit-idx .section-tree .tree-container {
+  float: right;
+  margin: 75px 115px 75px 0px;
+}
+
+.kit-idx .section-tree .tree-container img {
+  height: 400px;
+}
+
+.kit-idx .section-contact {
+  background-color: #ccbaa8;
+  padding: 80px 10px 80px 10px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.kit-idx .section-contact .title {
+  font-family: AvenirBold;
+  font-size: 47px;
+}
+
+.kit-idx .section-contact .blurb {
+  font-size: 25px;
+  width: 550px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.kit-idx .section-contact form {
+  color: #ffffff;
+  width: 500px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.kit-idx .section-contact .form-field {
+  float: left;
+  width: 100%;
+  margin: 21px 0px 0px 0px;
+}
+
+.kit-idx .section-contact .form-field .label {
+  width: 100%;
+  text-align: left;
+  margin: 0px 0px 10px 0px;
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+.kit-idx .section-contact .form-field input {
+  width: 100%;
+  height: 38px;
+  border: white;
+  border-radius: 2px;
+  font-size: 22px;
+  font-weight: lighter;
+  padding: 5px;
+}
+
+.kit-idx .section-contact .form-field #form-reason {
+  width: 100%;
+  height: 75px;
+  border-radius: 2px;
+  border-color: white;
+  padding: 5px;
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+.kit-idx .section-contact .form-submit input {
+  background-color: #f0f0ef;
+  padding: 23px;
+  margin: 26px 0px 0px 0px;
+  font-size: 23px;
+  border-radius: 9px;
+  color: black;
+}
+
+.kit-idx .section-contact .form-submit input:disabled {
+  color: #cccccc;
+}
+
+.kit-idx .section-footer {
+  margin: auto;
+  padding: 50px 0px 50px 0px;
+}
+
+.kit-idx .section-footer .logo {
+}
+
+.kit-idx .section-footer .logo img {
+  width: 125px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.kit-idx .section-footer .contact-us {
+  text-align: center;
+  margin: 31px 0px 0px 0px;
+  font-size: 26px;
+  text-decoration: underline;
+}
+
+.kit-idx .section-footer .copyright {
+  text-align: center;
+  margin: 40px 0px 0px 0px;
+  font-size: 22px;
+}
+
+@media only screen and (max-width: 600px) {
+  .kit-idx .header {
+    padding: 30px 25px 18px 20px;
+  }
+
+  .kit-idx .header .logo {
+    float: left;
+  }
+
+  .kit-idx .header .logo img {
+    width: 80px;
+  }
+
+  .kit-idx .header .links {
+    float: right;
+    font-size: 17px;
+    color: #7c7c7c;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .kit-idx .header .links .link {
+    float: left;
+    padding: 6px 13px;
+  }
+
+  .kit-idx .section-top {
+    background-image: url(https://aws-kit-bucket-19393939393.s3.amazonaws.com/website_v1.0/images/arrow_and_box.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    background-position: bottom;
+    margin: auto;
+    /* text-align: center; */
+  }
+
+  .kit-idx .section-top .text-container {
+    margin: 36px 0px 0px 38px;
+    padding: 0px 30px 0px 0px;
+  }
+
+  .kit-idx .section-top .text-container .title {
+    font-size: 28px;
+    font-family: AvenirBold;
+    width: 200px;
+  }
+
+  .kit-idx .section-top .divider {
+    width: 30px;
+    margin: 6px 0px 15px 0px;
+  }
+
+  .kit-idx .section-top .divider hr {
+    border: 3px solid black;
+  }
+  .kit-idx .section-top .text-container .subtitle {
+    font-size: 21px;
+    max-width: 300px;
+  }
+
+  .kit-idx .section-top .text-container .button {
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    width: fit-content;
+    padding: 13px 22px;
+    border-radius: 10px;
+    border-color: black;
+    margin: 15px 0px 0px 0px;
+  }
+
+  .kit-idx .section-tree {
+    position: inherit;
+    background-color: #ffffff;
+    width: 100%;
+    margin: 50px 0px 50px 0px;
+  }
+
+  .kit-idx .section-tree .text-container {
+    /* todo: fix for ipad */
+    /* float: left; */
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 23px 0px 31px 0px;
+    position: inherit;
+    top: inherit;
+    left: inherit;
+    margin-left: auto;
+    margin-top: 0px;
+    margin-right: auto;
+  }
+
+  .kit-idx .section-tree .text-container .title {
+    font-size: 27px;
+    font-weight: 500;
+    margin: 10px 20px 0px 20px;
+  }
+
+  .kit-idx .section-tree .text-container .subtitle {
+    font-size: 19px;
+    margin: 10px 20px 10px 20px;
+  }
+
+  .kit-idx .section-tree .tree-container {
+    width: 100%;
+    margin: 50px 0 50px 0px;
+  }
+
+  .kit-idx .section-tree .tree-container img {
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .kit-idx .section-contact {
+    background-color: #ccbaa8;
+    padding: 80px 10px 80px 10px;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .kit-idx .section-contact .title {
+    font-size: 35px;
+    margin: auto;
+  }
+
+  .kit-idx .section-contact .blurb {
+    font-size: 23px;
+    width: inherit;
+    margin: auto;
+    margin-top: 40px;
+  }
+
+  .kit-idx .section-contact form {
+    width: inherit;
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  .kit-idx .section-contact .form-field {
+    float: left;
+    width: 95%;
+    margin: 21px 0px 0px 0px;
+    padding: 0px;
+  }
+
+  .kit-idx .section-contact .form-field .label {
+    width: 100%;
+    text-align: left;
+    margin: 0px 0px 10px 0px;
+    font-size: 22px;
+  }
+
+  .kit-idx .section-contact .form-field input {
+    width: 100%;
+    height: 38px;
+    font-size: 22px;
+    padding: 5px;
+    margin: 0px 10px 0px 0px;
+  }
+
+  .kit-idx .section-contact .form-field #form-reason {
+    width: 100%;
+    height: 75px;
+    padding: 5px;
+    font-size: 22px;
+    margin: 0px 0px 0px 0px;
+    float: left;
+  }
+
+  .kit-idx .section-contact .form-submit input {
+    padding: 23px;
+    margin: 26px 0px 0px 0px;
+    font-size: 23px;
+    border-radius: 9px;
+  }
+
+  .kit-idx .section-footer .logo img {
+    width: 75px;
+  }
+
+  .kit-idx .section-footer .copyright {
+    font-size: 19px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .kit-idx .section-top .text-container {
+    margin: 45px 0px 0px 15px;
+    padding: 0px 30px 0px 0px;
+  }
+
+  .kit-idx .section-top .text-container .title {
+    font-size: 26px;
+  }
+
+  .kit-idx .section-top .text-container .subtitle {
+    font-size: 20px;
+  }
+}
